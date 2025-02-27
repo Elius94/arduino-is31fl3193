@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include <IS31FL3193.h>
 
-IS31FL3193 ledDriver;
+IS31FL3193 ledDriver(0x68);
 
 void setup() {
     Serial.begin(115200);

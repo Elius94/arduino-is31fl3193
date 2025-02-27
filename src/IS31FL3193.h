@@ -8,7 +8,7 @@
 
 class IS31FL3193 {
 public:
-    IS31FL3193(TwoWire &wire = Wire);
+    IS31FL3193(uint8_t address, TwoWire &wire = Wire);
 
     bool begin();
     void reset();
@@ -19,6 +19,7 @@ public:
     void disable();
 
 private:
+    uint8_t _address;
     TwoWire *_wire;
     void writeRegister(uint8_t reg, uint8_t value);
 };
