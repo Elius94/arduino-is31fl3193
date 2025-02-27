@@ -1,0 +1,14 @@
+# Classi
+IS31FL3193	KEYWORD1
+
+# Metodi pubblici
+begin	KEYWORD2
+reset	KEYWORD2
+setBrightness	KEYWORD2
+setCurrent	KEYWORD2
+setColor	KEYWORD2
+enable	KEYWORD2
+disable	KEYWORD2
+
+# Costanti e definizioni
+IS31FL3193_I2C_ADDR	KEYWORD3
